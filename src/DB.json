@@ -8,7 +8,8 @@
         "Stadt":"Himmelpfort"
       },
       "Personalnummer": 123456,
-      "Zustellmittel": "E-Scooter"
+      "Zustellmittel": "E-Scooter",
+      "Sendungsmenge": ""
     },
     {
         "Name": "Horst Hurtzig",
@@ -19,7 +20,8 @@
           "Stadt":"Himmelpfort"
         },
         "Personalnummer": 654321,
-        "Zustellmittel": "Fahrrad"
+        "Zustellmittel": "Fahrrad",
+        "Sendungsmenge": ""
       },
       {
         "Name": "Annalena Lang",
@@ -30,7 +32,8 @@
           "Stadt":"Himmelpfort"
         },
         "Personalnummer": 332148,
-        "Zustellmittel": "Rollwagen"
+        "Zustellmittel": "Rollwagen",
+        "Sendungsmenge": ""
       },
       {
         "Name": "Minh Lee Nhygen",
@@ -41,7 +44,8 @@
           "Stadt":"Himmelpfort"
         },
         "Personalnummer": 987654,
-        "Zustellmittel": "Fahrrad"
+        "Zustellmittel": "Fahrrad",
+        "Sendungsmenge": ""
       },
       {
         "Name": "Karl Gans",
@@ -52,6 +56,7 @@
           "Stadt":"Himmelpfort"
         },
         "Personalnummer": 975361,
-        "Zustellmittel": "Caddy"
+        "Zustellmittel": "Caddy",
+        "Sendungsmenge": ""
       }
 ]

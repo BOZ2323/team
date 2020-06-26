@@ -8,10 +8,11 @@ import MitarbeiterListe from './MitarbeiterListe';
 function App() {
 
   const [liste, setListe] = useState([]);
+  const [menge, setMenge] = useState([]);
 
   useEffect(()=>{
     getMitarbeiterListe();
-  });
+  }, [liste]);
   console.log(liste);
 
   const getMitarbeiterListe = async () => {
@@ -21,12 +22,16 @@ function App() {
       console.log(data);
       console.log(liste);
   }
+
+  const updateSendungsmenge = async (e) => {
+    await setMenge(e.target.value)
+  }
   
 
   return (
     <div className="App">
       <h1>Das kannst Du!!</h1>
-      <MitarbeiterListe getMitarbeiterListe={getMitarbeiterListe} liste={liste}/>
+      <MitarbeiterListe getMitarbeiterListe={getMitarbeiterListe} liste={liste} updateSendungsmenge={updateSendungsmenge}/>
     </div>
   );
 }
