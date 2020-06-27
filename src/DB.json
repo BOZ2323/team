@@ -9,7 +9,7 @@
       },
       "Personalnummer": 123456,
       "Zustellmittel": "E-Scooter",
-      "Sendungsmenge": ""
+      "Sendungsmenge": 0
     },
     {
         "Name": "Horst Hurtzig",
@@ -21,7 +21,7 @@
         },
         "Personalnummer": 654321,
         "Zustellmittel": "Fahrrad",
-        "Sendungsmenge": ""
+        "Sendungsmenge": 0
       },
       {
         "Name": "Annalena Lang",
@@ -33,7 +33,7 @@
         },
         "Personalnummer": 332148,
         "Zustellmittel": "Rollwagen",
-        "Sendungsmenge": ""
+        "Sendungsmenge": 0
       },
       {
         "Name": "Minh Lee Nhygen",
@@ -45,7 +45,7 @@
         },
         "Personalnummer": 987654,
         "Zustellmittel": "Fahrrad",
-        "Sendungsmenge": ""
+        "Sendungsmenge": 0
       },
       {
         "Name": "Karl Gans",
@@ -57,6 +57,6 @@
         },
         "Personalnummer": 975361,
         "Zustellmittel": "Caddy",
-        "Sendungsmenge": ""
+        "Sendungsmenge": 0
       }
 ]
