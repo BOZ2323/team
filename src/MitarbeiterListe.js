@@ -1,7 +1,7 @@
 /*jshint esversion: 8 */ 
 import React from 'react';
 
-const MitarbeiterListe = ({liste, updateSendungsmenge}) => {
+const MitarbeiterListe = ({liste, updateSendungsmenge, menge, getMitarbeiterListe}) => {
     const mitarbeiterliste = liste.length ? liste.map(listItem => {
         let uniqueId = Math.random();
         return (
@@ -11,9 +11,10 @@ const MitarbeiterListe = ({liste, updateSendungsmenge}) => {
             <p>{listItem.Anschrift.PLZ}{listItem.Anschrift.Stadt}</p>
             <p>{listItem.Personalnummer}</p>
             <p>{listItem.Zustellmittel}</p>
-            <form >
-                <input type="text" onChange={updateSendungsmenge} placeholder="Sendungsmenge"/>
-                <button className="submit-button" type="submit">send</button>
+            <form onSubmit={getMitarbeiterListe} className="search-form">
+                <label htmlFor="Sendungsmenge">Sendungsmenge:</label>
+                <input type="number" id="Sendungsmenge" name="Sendungsmenge" min="1" max="1000" onChange={updateSendungsmenge}></input>
+                {/* <input type="submit"></input> */}
             </form>
             </div>
         )
