@@ -14,7 +14,7 @@ const Mitarbeiter = ({ mitarbeiter }) => {
 
   return (
     <div className="mitarbeiterCard">
-      <h1> {mitarbeiter.Name} </h1> <p> Anschrift: </p>
+      <h1> {mitarbeiter.Vorname} {mitarbeiter.Nachname} </h1> <p> Anschrift: </p>
       <p className="cardContent">
         {mitarbeiter.Anschrift.Strasse} {mitarbeiter.Anschrift.Hausnummer}
       </p>

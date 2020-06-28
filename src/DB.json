@@ -1,62 +1,67 @@
 [
-    {
-      "Name": "Hannelore Amsél",
+  {
+    "Vorname": "Hannelore" ,
+    "Nachname": "Amsél",
+    "Anschrift": {
+      "Strasse":"Malerweg",
+      "Hausnummer":"2",
+      "PLZ":16798,
+      "Stadt":"Himmelpfort"
+    },
+    "Personalnummer": 123456,
+    "Zustellmittel": "E-Scooter",
+    "Sendungsmenge": 0
+  },
+  {
+      "Vorname": "Horst",
+      "Nachname": "Hurtzig",
       "Anschrift": {
-        "Strasse":"Malerweg",
-        "Hausnummer":"2",
+        "Strasse":"Adlerweg ",
+        "Hausnummer":"13",
         "PLZ":16798,
         "Stadt":"Himmelpfort"
       },
-      "Personalnummer": 123456,
-      "Zustellmittel": "E-Scooter",
+      "Personalnummer": 654321,
+      "Zustellmittel": "Fahrrad",
       "Sendungsmenge": 0
     },
     {
-        "Name": "Horst Hurtzig",
-        "Anschrift": {
-          "Strasse":"Adlerweg ",
-          "Hausnummer":"13",
-          "PLZ":16798,
-          "Stadt":"Himmelpfort"
-        },
-        "Personalnummer": 654321,
-        "Zustellmittel": "Fahrrad",
-        "Sendungsmenge": 0
+      "Vorname": "Annalena",
+      "Nachname": "Lang",
+      "Anschrift": {
+        "Strasse":"Hauptstr",
+        "Hausnummer":"178a",
+        "PLZ":16798,
+        "Stadt":"Himmelpfort"
       },
-      {
-        "Name": "Annalena Lang",
-        "Anschrift": {
-          "Strasse":"Hauptstr",
-          "Hausnummer":"178a",
-          "PLZ":16798,
-          "Stadt":"Himmelpfort"
-        },
-        "Personalnummer": 332148,
-        "Zustellmittel": "Rollwagen",
-        "Sendungsmenge": 0
+      "Personalnummer": 332148,
+      "Zustellmittel": "Rollwagen",
+      "Sendungsmenge": 0
+    },
+    {
+      "Vorname": "Minh Lee",
+      "Nachname": "Nhygen",
+      "Anschrift": {
+        "Strasse":"Langestraße",
+        "Hausnummer":"1",
+        "PLZ":16798,
+        "Stadt":"Himmelpfort"
       },
-      {
-        "Name": "Minh Lee Nhygen",
-        "Anschrift": {
-          "Strasse":"Langestraße",
-          "Hausnummer":"1",
-          "PLZ":16798,
-          "Stadt":"Himmelpfort"
-        },
-        "Personalnummer": 987654,
-        "Zustellmittel": "Fahrrad",
-        "Sendungsmenge": 0
+      "Personalnummer": 987654,
+      "Zustellmittel": "Fahrrad",
+      "Sendungsmenge": 0
+    },
+    {
+      "Vorname": "Karl",
+      "Nachname": "Gans",
+      "Anschrift": {
+        "Strasse":"Breite Str.",
+        "Hausnummer":"3e",
+        "PLZ":16798,
+        "Stadt":"Himmelpfort"
       },
-      {
-        "Name": "Karl Gans",
-        "Anschrift": {
-          "Strasse":"Breite Str.",
-          "Hausnummer":"3e",
-          "PLZ":16798,
-          "Stadt":"Himmelpfort"
-        },
-        "Personalnummer": 975361,
-        "Zustellmittel": "Caddy",
-        "Sendungsmenge": 0
-      }
+      "Personalnummer": 975361,
+      "Zustellmittel": "Caddy",
+      "Sendungsmenge": 0
+    }
 ]
