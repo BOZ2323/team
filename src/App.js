@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     getMitarbeiterListe();
-  });
+  }, []);
 
   const getMitarbeiterListe = () => {
     let data = db;
@@ -23,8 +23,7 @@ function App() {
     return null;
   }
   const mitarbeiterliste = liste.map((mitarbeiter) => {
-    let uniqueId = Math.random();
-    return <Mitarbeiter mitarbeiter={mitarbeiter} key={uniqueId} />;
+    return <Mitarbeiter mitarbeiter={mitarbeiter} key={mitarbeiter.Personalnummer} />;
   });
 
   return <div className="App">{mitarbeiterliste}</div>;
